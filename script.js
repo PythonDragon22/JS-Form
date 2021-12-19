@@ -56,3 +56,14 @@ function toggle() {
 		shown = true
 	}
 }
+
+// Another Method To Show and Hide The Password
+/*
+function showHide() {
+	if (passwordConfirmInput.type === 'password') {
+		passwordConfirmInput.setAttribute('type', 'text')
+	} else {
+		passwordConfirmInput.setAttribute('type', 'password')
+	}
+}
+*/
