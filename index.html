@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validation Using JavaScript</title>
+	<!-- CSS File -->
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<!-- Font Awesome Icons -->
+	<script src="https://kit.fontawesome.com/6a630c222c.js" crossorigin="anonymous"></script>
+	<!-- JavaScript File -->
+	<script defer src="script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div id="errors" class="errors"></div>
+		<form id="form" method="GET" action="">
+			<div class="input-box">
+				<input id="username" name="username" placeholder="Username" type="text" required />
+			</div>
+			<div class="input-box">
+				<input id="password" name="password"placeholder="Password" type="password" />
+			</div>
+			<div class="input-box password-confirm-box">
+				<input id="password_confirmation" name="password_confirmation" placeholder="Password Confirmation" type="password" />
+				<span onclick="toggle()" id="eye" class="fas fa-eye"></span>
+			</div>
+			<div class="btn-box">
+				<button type="submit">Submit</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
